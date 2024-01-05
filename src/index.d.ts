@@ -1,7 +1,8 @@
 interface Bot {
-    id: number;
+    id: string | number ;
     name: string;
     image: string;
     primary: string;
     secondary?: string;
 }
+
